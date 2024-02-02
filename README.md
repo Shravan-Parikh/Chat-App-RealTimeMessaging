@@ -1,5 +1,8 @@
 # Chat-App-RealTimeMessaging
 
+Demo Link : [](https://chat-app-real-time-messaging.vercel.app)
+Backend herkou Link : [](https://springboot-chatapp-85133f0b7893.herokuapp.com/)
+
 ## A chatapp with realtime messaging. 
 - UI is inspried by [WhatsApp web.](https://web.whatsapp.com/) 
  
