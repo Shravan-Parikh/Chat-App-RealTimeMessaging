@@ -1,4 +1,4 @@
-import { BASE_URL } from "../../Config/Api";
+import { BASE_URL, herkou_url } from "../../Config/Api";
 import {
   LOGIN,
   REGISTER,
@@ -8,7 +8,7 @@ import {
 } from "./ActionType";
 
 export const register = (data) => async (dispatch) => {
-  const res = await fetch(`http://localhost:5454/auth/signup`, {
+  const res = await fetch(`${herkou_url}/auth/signup`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -22,7 +22,7 @@ export const register = (data) => async (dispatch) => {
 };
 
 export const login = (data) => async (dispatch) => {
-  const res = await fetch(`http://localhost:5454/auth/signin`, {
+  const res = await fetch(`${herkou_url}/auth/signin`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
